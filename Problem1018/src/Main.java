@@ -39,13 +39,13 @@ public class Main {
 		aux = aux - $1 * 1;
 		
 		System.out.printf("%d\n",value);
-		System.out.printf("%d nota(s) de R$100,00\n", $100);
-		System.out.printf("%d nota(s) de R$50,00\n", $50);
-		System.out.printf("%d nota(s) de R$20,00\n", $20);
-		System.out.printf("%d nota(s) de R$10,00\n", $10);
-		System.out.printf("%d nota(s) de R$5,00\n", $5);
-		System.out.printf("%d nota(s) de R$2,00\n", $2);
-		System.out.printf("%d nota(s) de R$1,00\n", $1);
+		System.out.printf("%d nota(s) de R$ 100,00\n", $100);
+		System.out.printf("%d nota(s) de R$ 50,00\n", $50);
+		System.out.printf("%d nota(s) de R$ 20,00\n", $20);
+		System.out.printf("%d nota(s) de R$ 10,00\n", $10);
+		System.out.printf("%d nota(s) de R$ 5,00\n", $5);
+		System.out.printf("%d nota(s) de R$ 2,00\n", $2);
+		System.out.printf("%d nota(s) de R$ 1,00\n", $1);
 		
 		sc.close();
 	}
